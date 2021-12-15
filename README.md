@@ -29,7 +29,7 @@ aws metadata can be accessed from the instances itself using http://169.254.169.
 curl requests
 run the script get_metadata_bonus_task.sh (Instructions in the script also)
 
- ./get_metadata_bonus_task.sh <username> <host_ip> <metadata_key_name>
+ ./get_metadata_bonus_task.sh <user> <host_ip> <metadata_key_name>
 
 example:-
 
