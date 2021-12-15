@@ -1,0 +1,21 @@
+---
+  - name: Playbook
+    hosts: localhost
+    tasks:
+    - name: Create RDS MySQL instance
+      rds:
+        command: create
+        instance_name: "testdatabase"
+        wait: yes
+        wait_timeout: 3600
+        db_engine: "MySQL"
+        db_name: "testdatabase"
+        engine_version: "8.0.23"
+        size: "10GB"
+        instance_type: "db.t2.micro"
+        username: "admin"
+        password: "XXXXXXXX"
+        multi_zone: "no"
+        port: "3306"
+        region: "us-east-2"
+        security_groups: "sg-0e06cbc17a49a3XXXXX"
