@@ -4,9 +4,9 @@
 
 Provisioning tool used - ansible
 
-front end -- css/html  \n
-backend -- AWS RDS (MySql)  \n
-middle -- flask api to get/post requests in the MySql RDS
+front end -- css/html  
+backend -- AWS RDS (MySql)  
+middle logic -- flask api to get/post requests in the MySql RDS
 
 steps-
 1) set up aws credentials on your local from where you will run ansible playbooks
