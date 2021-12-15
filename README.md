@@ -1,6 +1,6 @@
 # KPMG_ASSIGNMENT_SOLUTIONS
 
-#1st task -
+#**1st task -**
 
 Provisioning tool used - ansible
 
@@ -15,7 +15,7 @@ ansible-playbook rds.yaml
 3) set the values of your rds MySql credentials in the rds_db.py file.
 4) run the app.py file
 
-#2nd task:-
+#**2nd task:-**
 
 This can be done by 2 methods:-
 1) Using ansible module ec2_instance_info.
@@ -35,7 +35,7 @@ example:-
 
 ./get_metadata_bonus_task.sh ubuntu 10.10.23.23 hostname
 
-#3rd task:-
+#**3rd task:-**
 
 To solve this task we accepted the key and stored it in python list.
 From python list of keys we parsed it to python dictionary format and evaluated it.
