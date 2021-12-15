@@ -4,8 +4,8 @@
 
 Provisioning tool used - ansible
 
-front end -- css/html
-backend -- AWS RDS (MySql)
+front end -- css/html  \n
+backend -- AWS RDS (MySql)  \n
 middle -- flask api to get/post requests in the MySql RDS
 
 steps-
