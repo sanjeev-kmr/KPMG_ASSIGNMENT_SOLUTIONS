@@ -1,0 +1,13 @@
+---
+  - name: Playbook
+    hosts: localhost
+    tasks:
+    - ec2_instance_info:
+      register: ec2_metadata
+
+    - debug: msg="{{ ec2_metadata.instances }}"
+    - name: copy the output to a local file
+      copy:
+        content: "{{ ec2_metadata }}"
+        dest: "log.json"
+      delegate_to: localhost
